@@ -32,8 +32,54 @@ header nav a {
   color: #41afbd;
 }
 
-.home img {
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+}
+
+.home {
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home h1 {
+  color: #41afbd;
+  font-style: italic;
+  font-size: 40px
+}
+
+.home p {
+  width: 800px;
+}
+
+.home div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.home a {
+  color: white;
+  background-color:  #41afbd;
+  width: 180px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.address {
   width: 100%;
+  text-align: center;
+}
+
+.address h2 {
+  font-size: 28px;
+  color: #41afbd;
+  font-style: italic;
 }
 
 @media (max-width: 768px) {
